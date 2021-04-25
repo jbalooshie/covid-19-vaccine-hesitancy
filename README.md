@@ -4,4 +4,12 @@
 
 ## Purpose
 
+## Resources
+- Data sources: 
+- Software: 
+
 ## Communication Protocol
+
+## Results
+
+## Summary
