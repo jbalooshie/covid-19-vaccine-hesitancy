@@ -31,7 +31,7 @@ CREATE TABLE "vaccine_hesitancy_covid" (
 CREATE TABLE "county_state" (
     "county" varchar   NOT NULL,
     "state" varchar   NOT NULL,
-    "fips_code" varchar   NOT NULL,
+    "fips_code" int   NOT NULL,
     CONSTRAINT "pk_county_state" PRIMARY KEY (
         "county","state"
      )
