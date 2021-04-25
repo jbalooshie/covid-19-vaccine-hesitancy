@@ -28,6 +28,15 @@ CREATE TABLE "vaccine_hesitancy_covid" (
      )
 );
 
+CREATE TABLE "county_state" (
+    "county" varchar   NOT NULL,
+    "state" varchar   NOT NULL,
+    "fips_code" varchar   NOT NULL,
+    CONSTRAINT "pk_county_state" PRIMARY KEY (
+        "county","state"
+     )
+);
+
 CREATE TABLE "county_statistics" (
     "county" varchar   NOT NULL,
     "state" varchar   NOT NULL,
@@ -127,8 +136,11 @@ CREATE TABLE "census_demographic" (
      )
 );
 
+ALTER TABLE "county_state" ADD CONSTRAINT "fk_county_state_fips_code" FOREIGN KEY("fips_code")
+REFERENCES "vaccine_hesitancy_covid" ("fips_code");
+
 ALTER TABLE "county_statistics" ADD CONSTRAINT "fk_county_statistics_county_state" FOREIGN KEY("county", "state")
-REFERENCES "vaccine_hesitancy_covid" ("county", "state");
+REFERENCES "county_state" ("county", "state");
 
 ALTER TABLE "census_demographic" ADD CONSTRAINT "fk_census_demographic_CountyId" FOREIGN KEY("CountyId")
 REFERENCES "vaccine_hesitancy_covid" ("fips_code");
