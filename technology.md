@@ -25,3 +25,8 @@ We will use seaborn or matplotlib to perform our exploratory analysis. Our testi
 ## 4. Dashboard
 Tableau Public will be used to present our data dn visualise our findings.
 
+# Conclusion
+The team discussed types of technologies used. Their conclusions are shown above. It is important to note that some flexibility is warranted and udnerstood by all team members. For example, if certain technologies are found to be not useful, new technologies will be used to ensure felxibility, adapatability and ease of use. The technologies listed above are the current understandings of flexibility, adaptability and ease of use among all memebers of the the team.
+
+- Aamir Jan
+
