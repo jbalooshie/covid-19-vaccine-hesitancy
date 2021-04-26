@@ -1,5 +1,7 @@
 # Covid-19_Vaccine_Hesitancy
 
+X - Role: Presentation - Deliverable 1 of Group Project.
+
 # Technologies Used
 ## Data Cleaning and Analysis
 Pandas and numpy will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python.
