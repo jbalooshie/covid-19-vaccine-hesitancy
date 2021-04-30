@@ -133,7 +133,7 @@ CREATE TABLE "county_size" (
     "fips_code" int   NOT NULL,
     "county" varchar   NOT NULL,
     "state" varchar   NOT NULL,
-    "polulation" int   NOT NULL,
+    "population" int   NOT NULL,
     "density" varchar   NOT NULL,
     CONSTRAINT "pk_county_size" PRIMARY KEY (
         "fips_code"
