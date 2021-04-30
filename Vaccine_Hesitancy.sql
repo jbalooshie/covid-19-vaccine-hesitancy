@@ -1,4 +1,5 @@
 ﻿-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
+-- Link to schema: https://app.quickdatabasediagrams.com/#/d/aqDqxL
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
 
@@ -125,6 +126,17 @@ CREATE TABLE "census_demographic" (
     "Unemployment" decimal   NOT NULL,
     CONSTRAINT "pk_census_demographic" PRIMARY KEY (
         "CountyId"
+     )
+);
+
+CREATE TABLE "county_size" (
+    "fips_code" int   NOT NULL,
+    "county" varchar   NOT NULL,
+    "state" varchar   NOT NULL,
+    "polulation" int   NOT NULL,
+    "density" varchar   NOT NULL,
+    CONSTRAINT "pk_county_size" PRIMARY KEY (
+        "fips_code"
      )
 );
 
