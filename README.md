@@ -4,7 +4,7 @@
 
 ### Description of preliminary data preprocessing
 
-### Description of preliminary fearure engineering and preliminary feature selection, including their decision-making process
+### Description of preliminary feature engineering and preliminary feature selection, including their decision-making process
 
 ### Description of how data was split into training and testing sets
 
