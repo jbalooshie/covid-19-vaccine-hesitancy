@@ -143,3 +143,8 @@ CREATE TABLE "county_size" (
 ALTER TABLE "vaccine_hesitancy_covid" ADD CONSTRAINT "fk_vaccine_hesitancy_covid_fips_code" FOREIGN KEY("fips_code")
 REFERENCES "census_demographic" ("CountyId");
 
+SELECT *
+INTO full_county_data
+FROM vaccine_hesitancy_covid
+FULL OUTER JOIN census_demographic
+ON vaccine_hesitancy_covid.fips_code = census_demographic."CountyId";

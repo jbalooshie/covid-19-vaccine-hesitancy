@@ -1,3 +1,21 @@
+1. Open pgAdmin. Create a new server. Name the server vaccine-hesitancy.
+
+2. Switch to the Connection tab at the top. Enter "vaccine-hesitancy.czxeoxdbrl4n.us-east-1.rds.amazonaws.com" for the Host name/address. 
+
+3. Leave the Username as "postgres". 
+
+4. For the Password enter "pJ3ev4VraUrWJSGImo9X". Check the box to save the password. 
+
+5. Click the save button at the bottom. 
+
+6. Your new server should appear in the server list. Query the "vaccine_hesitancy" database to ensure you are pulling data from the server correctly. Due to the size of some of the tables it can take a minute or two for queries to complete. 
+
+
+
+
+######################################################################################
+OLD INSTRUCTIONS:
+
 1. Download the zip file with the five datasets from https://github.com/danig89/Covid-19_Vaccine_Hesitancy/tree/database. Unzip the files into your local directory.
 
 2. Pull the Vaccine_Hesitancy.sql, DB_connection_to_ml_model.ipynb, and Vaccine_Hesitancy_Data_Exploration.ipynb files into your local local directory.
