@@ -1,7 +1,7 @@
 # Covid-19_Vaccine_Hesitancy
 
 ### Draft presentation link: 
-[Project_Presentation-Draft_Version] (https://docs.google.com/presentation/d/10iqx7s8fsEXmWn9LjPyQ8yCpLilgcIdqZBfQSx1DNV8/edit?usp=sharing)
+[Project_Presentation-Draft_Version](https://docs.google.com/presentation/d/10iqx7s8fsEXmWn9LjPyQ8yCpLilgcIdqZBfQSx1DNV8/edit?usp=sharing)
 
 ## Background
 This topic was chosen due to a shared interest in healthcare and public health as it relates to Covid-19.
