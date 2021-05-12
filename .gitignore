@@ -1,9 +1,3 @@
-#Add config.py
-config.py
-
-#Add complete_county_data.csv
-complete_county_data.csv
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
