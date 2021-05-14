@@ -20,9 +20,6 @@ The purpose of this project is to explore which factors are more likely to contr
 - Data sources: [US Census Demographic Data](https://www.kaggle.com/muonneutrino/us-census-demographic-data?select=acs2017_county_data.csv); [Vaccine Hesitancy for COVID-19](https://data.cdc.gov/Vaccinations/Vaccine-Hesitancy-for-COVID-19-County-and-local-es/q9mh-h2tw); [Election, COVID, and Demographic Data by County](https://www.kaggle.com/etsc9287/2020-general-election-polls)
 - Software: Jupyter Notebook; pgAdmin 4; Tableau Public; Amazon Web Services
 
-### Communication Protocol
-The main method of communication for group members is the <b>Group-0</b> Slack channel. The group also meets outside of class hours twice a week via Zoom. Ad hoc meetings are scheduled as needed for troubleshooting and further collaboration.
-
 ### Results
 
 ### Summary
