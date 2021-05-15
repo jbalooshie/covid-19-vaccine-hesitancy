@@ -18,6 +18,20 @@ The purpose of this project is to explore which factors are more likely to contr
 - Data sources: [US Census Demographic Data](https://www.kaggle.com/muonneutrino/us-census-demographic-data?select=acs2017_county_data.csv); [Vaccine Hesitancy for COVID-19](https://data.cdc.gov/Vaccinations/Vaccine-Hesitancy-for-COVID-19-County-and-local-es/q9mh-h2tw); [Election, COVID, and Demographic Data by County](https://www.kaggle.com/etsc9287/2020-general-election-polls); [Urban-Rural Classification for Counties](https://www.cdc.gov/nchs/data_access/urban_rural.htm#Data_Files_and_Documentation)
 - Software: Jupyter Notebook; QuickDBD; pgAdmin 4; Tableau Public; Amazon Web Services
 
+## Technologies
+
+### Data Cleaning and Analysis
+Pandas and numpy were used to clean the data and perform data cleaning and preliminary exploratory analysis. Further analysis was completed using Python. Seaborn and matplotlib were used for data exploration/visualization.
+
+###  Database Storage
+Postgres and PgAdmin was used to create and store the database. AWS was used for cloud storage of the database. SQLAlchemy was used to load and connect to the data.
+
+### Machine Learning
+Sklearn was used to split the data into training and testing sets, and to build and test our machine learning model.
+
+### Dashboard
+Tableau Public was used to present the data and visualize our findings.
+
 ## Machine Learning Model
 
 ### Description of preliminary data preprocessing
