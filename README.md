@@ -20,22 +20,6 @@ The purpose of this project is to explore which factors are more likely to contr
 - Data sources: [US Census Demographic Data](https://www.kaggle.com/muonneutrino/us-census-demographic-data?select=acs2017_county_data.csv); [Vaccine Hesitancy for COVID-19](https://data.cdc.gov/Vaccinations/Vaccine-Hesitancy-for-COVID-19-County-and-local-es/q9mh-h2tw); [Election, COVID, and Demographic Data by County](https://www.kaggle.com/etsc9287/2020-general-election-polls); [Urban-Rural Classification for Counties](https://www.cdc.gov/nchs/data_access/urban_rural.htm#Data_Files_and_Documentation)
 - Software: Jupyter Notebook; QuickDBD; pgAdmin 4; Tableau Public; Amazon Web Services
 
-### Results
-- Poverty is the most important feature, followed by percentage of votes for Joe Biden in 2020 election.
-- The third most important feature is percent of african american population in the county.
-- There is moderate negative correlation between percentage of votes for Joe Biden (2020) and percentage of white population in a county.
-- There is weak negative correlation between percentage of votes for Donald Trump (2020) and percentage of asian population as well as percentage of african american population in a county.
-- There is significant difference at 95% CL for low and moderate hesitancy.
-
-### Summary
-<b>Which demographic factors, such as income and poverty level, employment status, race/ethnicity, and access to transportation are more likely to contribute to vaccine hesitancy?</b>
-- Poverty (economy)
-- Percentage of votes for Joe Biden in 2020 election (political views)
-- Percent of african american population in the county (race)
-
-<b>Can we assume that counties that voted for Donald Trump are more likely to have higher populations of individuals who are vaccine hesitant?</b>
-- Yes. Our analysis showed that counties that Trump carried in the 2020 Presidential election were more likely to have moderate hesitancy between 15% and 25% (76% counties vs. 46% counties) and less likely to have low hesitancy below 15% (11% of counties vs. 42% of counties)
-
 ## Machine Learning Model
 
 ### Description of preliminary data preprocessing
@@ -59,6 +43,8 @@ y = county_data_df['hesitancy']
 
 ### Description of how data was split into training and testing sets
 The data was split into training and testing sets using the random state parameter to guarantee that the same sequence of random numbers is generated each time we run the code.
+<br>
+<img src="Resources/README Images/test_train_split.png" width="750" height="350"/>
 
 ### Explanation of model choice, including limitations and benefits
 After exploring various logistic regression models, such as muliple logistic regression, naïve random sampling, SMOTE oversampling, undersampling, and random forest classifier, the group chose to use the multiple logistic regression model, as it yielded an 77% accuracy, precision, and recall.
@@ -78,3 +64,21 @@ After exploring various logistic regression models, such as muliple logistic reg
 - The model performed well while predicting medium hesitancy, as expected.
 - The model only predicted 1 datapoint as high hesitancy when it was truly low hesitancy.
 - The model only predicted 2 datapoints as low hesitancy when it was truly high hesitancy.
+<img src="Resources/README Images/model_performance.png" width="600" height="350"/>
+
+## Results
+- Poverty is the most important feature, followed by percentage of votes for Joe Biden in 2020 election.
+- The third most important feature is percent of african american population in the county.
+<img src="Resources/README Images/results.png" width="650" height="600"/> <img src="Resources/README Images/results_chart.png" width="500" height="300"/> 
+- There is moderate negative correlation between percentage of votes for Joe Biden (2020) and percentage of white population in a county.
+- There is weak negative correlation between percentage of votes for Donald Trump (2020) and percentage of asian population as well as percentage of african american population in a county.
+- There is significant difference at 95% CL for low and moderate hesitancy.
+
+## Summary
+<b>Which demographic factors, such as income and poverty level, employment status, race/ethnicity, and access to transportation are more likely to contribute to vaccine hesitancy?</b>
+- Poverty (economy)
+- Percentage of votes for Joe Biden in 2020 election (political views)
+- Percent of african american population in the county (race)
+
+<b>Can we assume that counties that voted for Donald Trump are more likely to have higher populations of individuals who are vaccine hesitant?</b>
+- Yes. Our analysis showed that counties that Trump carried in the 2020 Presidential election were more likely to have moderate hesitancy between 15% and 25% (76% counties vs. 46% counties) and less likely to have low hesitancy below 15% (11% of counties vs. 42% of counties)
