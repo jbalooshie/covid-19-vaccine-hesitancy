@@ -21,8 +21,10 @@ The purpose of this project is to explore which factors are more likely to contr
 - Software: Jupyter Notebook; QuickDBD; pgAdmin 4; Tableau Public; Amazon Web Services
 
 ### Results
-- There is moderate negative correlation between percentage of votes for Joe Biden (2020) and percentage of white population in a county
-- There is weak negative correlation between percentage of votes for Donald Trump (2020) and percentage of asian population as well as percentage of african american population in a county
+- Poverty is the most important feature, followed by percentage of votes for Joe Biden in 2020 election.
+- The third most important feature is percent of african american population in the county.
+- There is moderate negative correlation between percentage of votes for Joe Biden (2020) and percentage of white population in a county.
+- There is weak negative correlation between percentage of votes for Donald Trump (2020) and percentage of asian population as well as percentage of african american population in a county.
 - There is significant difference at 95% CL for low and moderate hesitancy.
 
 ### Summary
@@ -71,3 +73,8 @@ After exploring various logistic regression models, such as muliple logistic reg
 - Can be prone to overfitting if the number of observations is lesser than the number of features
 - Cannot be used for non-linear data
 - Not good for complex relationships
+
+### Model Performance
+- The model performed well while predicting medium hesitancy, as expected.
+- The model only predicted 1 datapoint as high hesitancy when it was truly low hesitancy.
+- The model only predicted 2 datapoints as low hesitancy when it was truly high hesitancy.
