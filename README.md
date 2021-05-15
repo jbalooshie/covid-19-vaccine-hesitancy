@@ -6,9 +6,7 @@
 [Project_Presentation-Draft_Version](https://docs.google.com/presentation/d/10iqx7s8fsEXmWn9LjPyQ8yCpLilgcIdqZBfQSx1DNV8/edit?usp=sharing)
 
 ### Background
-This topic was chosen due to a shared interest in healthcare and public health as it relates to Covid-19.
-<br>
-(This section is not completed).
+This topic was chosen due to a shared interest in healthcare and public health as it relates to Covid-19. The group believes that AI/ML techniques can help in determining which demographic factors contribute to vaccine hesitancy.
 
 ### Purpose
 The purpose of this project is to explore which factors are more likely to contribute to an individual’s hesitancy of getting (or not getting) the Covid-19 vaccine. By analyzing Covid-19, US Census, and demographic data, we hope to determine:
