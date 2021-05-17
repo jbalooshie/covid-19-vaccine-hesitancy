@@ -3,7 +3,7 @@
 ## Project Overview
 
 ### Draft presentation link: 
-[Project_Presentation-Draft_Version](https://docs.google.com/presentation/d/10iqx7s8fsEXmWn9LjPyQ8yCpLilgcIdqZBfQSx1DNV8/edit?usp=sharing)
+[Project_Presentation](https://docs.google.com/presentation/d/10iqx7s8fsEXmWn9LjPyQ8yCpLilgcIdqZBfQSx1DNV8/edit?usp=sharing)
 
 ### Background
 This topic was chosen due to a shared interest in healthcare and public health as it relates to Covid-19. The group believes that AI/ML techniques can help in determining which demographic factors contribute to vaccine hesitancy.
@@ -31,6 +31,8 @@ Sklearn was used to split the data into training and testing sets, and to build 
 
 ### Dashboard
 Tableau Public was used to present the data and visualize our findings.
+[Link_to_Tableau_Dashboard](https://public.tableau.com/profile/monika.spiritova#!/vizhome/CapstoneProject-COVID19VaccineHesitancy/VaccineHesitancyvs_PresidentialCandidate2020?publish=yes)
+
 
 ## Machine Learning Model
 
