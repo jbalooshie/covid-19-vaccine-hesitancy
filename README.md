@@ -78,7 +78,7 @@ After exploring various logistic regression models, such as muliple logistic reg
 - The model performed well while predicting medium hesitancy, as expected.
 - The model only predicted 1 datapoint as high hesitancy when it was truly low hesitancy.
 - The model only predicted 2 datapoints as low hesitancy when it was truly high hesitancy.
-<img src="Resources/README Images/model_performance.png" width="600" height="350"/>
+<img src="Resources/README Images/confusion_heatmap.png" width="550" height="400"/>
 
 ## Results
 - Poverty is the most important feature, followed by percentage of votes for Joe Biden in 2020 election.
