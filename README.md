@@ -83,7 +83,7 @@ After exploring various logistic regression models, such as muliple logistic reg
 ## Results
 - Poverty is the most important feature, followed by percentage of votes for Joe Biden in 2020 election.
 - The third most important feature is percent of african american population in the county.
-<img src="Resources/README Images/results.png" width="650" height="600"/> <img src="Resources/README Images/results_chart.png" width="500" height="300"/> 
+<img src="Resources/README Images/results.png" width="550" height="600"/> <img src="Resources/README Images/feature_importance.png" width="325" height="600"/>
 - There is moderate negative correlation between percentage of votes for Joe Biden (2020) and percentage of white population in a county.
 - There is weak negative correlation between percentage of votes for Donald Trump (2020) and percentage of asian population as well as percentage of african american population in a county.
 - There is significant difference at 95% CL for low and moderate hesitancy.
