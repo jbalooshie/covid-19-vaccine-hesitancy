@@ -35,6 +35,8 @@ Sklearn was used to split the data into training and testing sets, and to build 
 Tableau Public was used to present the data and visualize our findings.
 [Link_to_Tableau_Dashboard](https://public.tableau.com/profile/monika.spiritova#!/vizhome/CapstoneProject-COVID19VaccineHesitancy/VaccineHesitancyvs_PresidentialCandidate2020?publish=yes)
 
+![Project_Presentation](Resources/README_Animations/Capstone_Vaccine_Hesitancy_Dashboard_Animation.gif)
+
 
 ## Machine Learning Model
 
