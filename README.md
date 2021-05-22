@@ -3,7 +3,7 @@
 ## Project Overview
 
 ### Draft presentation link: 
-[Project_Presentation](https://docs.google.com/presentation/d/10iqx7s8fsEXmWn9LjPyQ8yCpLilgcIdqZBfQSx1DNV8/edit?usp=sharing)
+[Link_to_Project_Presentation](https://docs.google.com/presentation/d/10iqx7s8fsEXmWn9LjPyQ8yCpLilgcIdqZBfQSx1DNV8/edit?usp=sharing)
 
 ![Project_Presentation](Resources/README_Animations/Capstone_Vaccine_Hesitancy_Presentation_Animation.gif)
 
