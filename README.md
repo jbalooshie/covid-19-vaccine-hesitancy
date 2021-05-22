@@ -26,7 +26,7 @@ The purpose of this project is to explore which factors are more likely to contr
 Pandas and numpy were used to clean the data and perform data cleaning and preliminary exploratory analysis. Further analysis was completed using Python. Seaborn and matplotlib were used for data exploration/visualization.
 
 ###  Database Storage
-Postgres and PgAdmin was used to create and store the database. AWS was used for cloud storage of the database. SQLAlchemy was used to load and connect to the data.
+Postgres and PgAdmin was used to create and store the database. AWS was used for cloud storage of the database. SQLAlchemy was used to load and connect to the data.   
 
 ### Machine Learning
 Sklearn was used to split the data into training and testing sets, and to build and test our machine learning model.
